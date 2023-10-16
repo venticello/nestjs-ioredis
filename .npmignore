@@ -20,5 +20,3 @@ renovate.json
 .prettierrc
 publish.sh
 
-ThisIsGitRepo
-!ThisIsNpmPackage
