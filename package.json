@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs-modules/ioredis",
+  "name": "@venticello/ioredis10",
   "version": "1.1.0",
   "description": "Nest - a ioredis module (@ioredis)",
   "author": "Nest Modules TM",
@@ -14,8 +14,7 @@
     "patch": "npm run release -- --release-as patch",
     "minor": "npm run release -- --release-as minor",
     "major": "npm run release -- --release-as major",
-    "deploy": "sh ./publish.sh",
-    "install": "npm run build"
+    "deploy": "sh ./publish.sh"
   },
   "keywords": [
     "nest",

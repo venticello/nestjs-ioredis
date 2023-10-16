@@ -5,6 +5,7 @@ sample
 index.ts
 package-lock.json
 yarn.lock
+tsconfig.json
 .prettierrc
 docs
 website
@@ -18,4 +19,3 @@ renovate.json
 .prettierignore
 .prettierrc
 publish.sh
-
