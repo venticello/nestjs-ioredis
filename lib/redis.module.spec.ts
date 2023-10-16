@@ -48,7 +48,9 @@ describe('RedisModule', () => {
 
     await app.close();
   });
-*/
+
+ */
+
   it('inject redis connection', async () => {
 
     @Injectable()

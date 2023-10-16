@@ -9,7 +9,8 @@ tsconfig.json
 .prettierrc
 docs
 website
-
+# IDEs and editors
+/.idea
 # misc
 .commitlintrc.json
 .release-it.json
