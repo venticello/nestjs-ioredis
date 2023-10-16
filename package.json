@@ -14,7 +14,8 @@
     "patch": "npm run release -- --release-as patch",
     "minor": "npm run release -- --release-as minor",
     "major": "npm run release -- --release-as major",
-    "deploy": "sh ./publish.sh"
+    "deploy": "sh ./publish.sh",
+    "install": "( [ ! -f ./ThisIsNpmPackage ] && [ ! -f ./AlreadyInstalled ] && echo \"\" > ./AlreadyInstalled && npm install . && node ./build.js ) || echo \"SKIP: NON GIT SOURCE\""
   },
   "keywords": [
     "nest",

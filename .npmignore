@@ -19,3 +19,6 @@ renovate.json
 .prettierignore
 .prettierrc
 publish.sh
+
+ThisIsGitRepo
+!ThisIsNpmPackage
