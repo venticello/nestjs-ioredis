@@ -1,10 +1,10 @@
 import { ModuleMetadata, Type } from '@nestjs/common/interfaces';
-import * as Redis from 'ioredis';
+import  { RedisOptions }  from 'ioredis';
 
-export type Redis = Redis.Redis;
+// export type Redis = Redis.Redis;
 
 export interface RedisModuleOptions {
-  config: Redis.RedisOptions & { url?: string };
+  config: RedisOptions & { url?: string };
 }
 
 export interface RedisModuleOptionsFactory {

@@ -10,7 +10,7 @@ module.exports = {
   'testRegex': '/lib/.*\\.spec\\.(ts|js)$',
   'globals': {
     'ts-jest': {
-      'tsConfig': 'tsconfig.json'
+      'tsconfig': 'tsconfig.json'
     }
   },
   'preset': 'ts-jest',
